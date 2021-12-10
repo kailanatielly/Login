@@ -25,11 +25,11 @@ $cadUser = new cUsuario();
 
         <h1>Cadastro de Usuários</h1>
         <form action="<?php $cadUser->inserir(); ?>" method="POST">
-            <input type="text" name="nome" placeholder="Nome aqui ..."/>
+            <input type="text" name="nome" placeholder="Nome aqui..."/>
             <br><br>
-            <input type="email" name="email" placeholder="E-mail aqui ..."/>
+            <input type="email" name="email" placeholder="E-mail aqui..."/>
             <br><br>
-            <input type="password" name="pas" placeholder="Senha aqui ..."/>
+            <input type="password" name="pas" placeholder="Senha aqui..."/>
             <br><br>
             <input type="submit" name="salvar" value="Salvar"/>
             <input type="reset" name="limpar" value="Limpar"/>

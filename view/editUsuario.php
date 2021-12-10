@@ -18,7 +18,7 @@ if (isset($_POST['updateUser'])) {
     $id = $_POST['id'];
 }
 $listaUser = new cUsuario();
-$lis = $listaUser->getUsuarioById($id);
+$lista = $listaUser->getUsuarioById($id);
 ?>
 <html>
     <head>
@@ -28,10 +28,10 @@ $lis = $listaUser->getUsuarioById($id);
     <body>
         <h1>Editar Usuário</h1>
         <form action="../controller/editUser.php" method="POST">
-            <input type="hidden" value="<?php echo $lis[0]['idUser']; ?>" name="id"/>
-            <input type="text" required value="<?php echo $lis[0]['nomeUser']; ?>" name="nome"/>
+            <input type="hidden" value="<?php echo $lista[0]['idUser']; ?>" name="id"/>
+            <input type="text" required value="<?php echo $lista[0]['nomeUser']; ?>" name="nome"/>
             <br><br>
-            <input type="email" required value="<?php echo $lis[0]['email']; ?>" name="email"/>
+            <input type="email" required value="<?php echo $lista[0]['email']; ?>" name="email"/>
             <br><br>
             <input type="submit" value="Salvar Alterações" name="update"/>
             <input type="button" value="Cancelar"
