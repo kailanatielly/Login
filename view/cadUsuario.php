@@ -24,7 +24,7 @@ $cadUser = new cUsuario();
     <body>
 
         <h1>Cadastro de Usuários</h1>
-        <form action="<?php $cadUser->inserir(); ?>" method="POST">
+         <form action="<?php $cadUser->inserir(); ?>" method="POST">
             <input type="text" name="nome" placeholder="Nome aqui..."/>
             <br><br>
             <input type="email" name="email" placeholder="E-mail aqui..."/>

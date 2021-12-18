@@ -3,20 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/LoginPDO/pdo/connection.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/view/listaPF.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/view/editPF.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/model/pessoaF.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/index.php</file>
-            <file>file:/C:/xampp/htdocs/LoginPDO/pdo/config.php</file>
-            <file>file:/C:/xampp/htdocs/LoginPDO/view/login.php</file>
-            <file>file:/C:/xampp/htdocs/LoginPDO/controller/cUsuario.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/model/pessoa.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/LoginPDO.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/controller/editPF.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/view/listaUsuarios.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/view/deletePF.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/controller/ctrPessoaF.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/controller/cLogin.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/index_old.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/controller/editUser.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/view/cadUsuario.php</file>
-            <file>file:/C:/xampp/htdocs/LoginPDO/controller/logout.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/model/pessoaJ.php</file>
             <file>file:/C:/xampp/htdocs/LoginPDO/view/editUsuario.php</file>
-            <file>file:/C:/xampp/htdocs/LoginPDO/controller/deleteUser.php</file>
+            <file>file:/C:/xampp/htdocs/LoginPDO/view/cadPessoaF.php</file>
         </group>
     </open-files>
 </project-private>
